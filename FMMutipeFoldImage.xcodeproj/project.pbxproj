@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CD40991EB8630200243EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD40981EB8630200243EF5 /* main.m */; };
+		84CD409C1EB8630200243EF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD409B1EB8630200243EF5 /* AppDelegate.m */; };
+		84CD409F1EB8630300243EF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD409E1EB8630300243EF5 /* ViewController.m */; };
+		84CD40A21EB8630300243EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD40A01EB8630300243EF5 /* Main.storyboard */; };
+		84CD40A51EB8630300243EF5 /* FMMutipeFoldImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CD40A31EB8630300243EF5 /* FMMutipeFoldImage.xcdatamodeld */; };
+		84CD40A71EB8630300243EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CD40A61EB8630300243EF5 /* Assets.xcassets */; };
+		84CD40AA1EB8630300243EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD40A81EB8630300243EF5 /* LaunchScreen.storyboard */; };
+		84CD40B51EB8630300243EF5 /* FMMutipeFoldImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD40B41EB8630300243EF5 /* FMMutipeFoldImageTests.m */; };
+		84CD40C01EB8630300243EF5 /* FMMutipeFoldImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD40BF1EB8630300243EF5 /* FMMutipeFoldImageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CD40B11EB8630300243EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CD408C1EB8630200243EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CD40931EB8630200243EF5;
+			remoteInfo = FMMutipeFoldImage;
+		};
+		84CD40BC1EB8630300243EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CD408C1EB8630200243EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CD40931EB8630200243EF5;
+			remoteInfo = FMMutipeFoldImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84CD40941EB8630200243EF5 /* FMMutipeFoldImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMMutipeFoldImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD40981EB8630200243EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CD409A1EB8630200243EF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84CD409B1EB8630200243EF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84CD409D1EB8630200243EF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84CD409E1EB8630300243EF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84CD40A11EB8630300243EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CD40A41EB8630300243EF5 /* FMMutipeFoldImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FMMutipeFoldImage.xcdatamodel; sourceTree = "<group>"; };
+		84CD40A61EB8630300243EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CD40A91EB8630300243EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CD40AB1EB8630300243EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD40B01EB8630300243EF5 /* FMMutipeFoldImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMMutipeFoldImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD40B41EB8630300243EF5 /* FMMutipeFoldImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMutipeFoldImageTests.m; sourceTree = "<group>"; };
+		84CD40B61EB8630300243EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD40BB1EB8630300243EF5 /* FMMutipeFoldImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMMutipeFoldImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD40BF1EB8630300243EF5 /* FMMutipeFoldImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMutipeFoldImageUITests.m; sourceTree = "<group>"; };
+		84CD40C11EB8630300243EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CD40911EB8630200243EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD40AD1EB8630300243EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD40B81EB8630300243EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CD408B1EB8630200243EF5 = {
+			isa = PBXGroup;
+			children = (
+				84CD40961EB8630200243EF5 /* FMMutipeFoldImage */,
+				84CD40B31EB8630300243EF5 /* FMMutipeFoldImageTests */,
+				84CD40BE1EB8630300243EF5 /* FMMutipeFoldImageUITests */,
+				84CD40951EB8630200243EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CD40951EB8630200243EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CD40941EB8630200243EF5 /* FMMutipeFoldImage.app */,
+				84CD40B01EB8630300243EF5 /* FMMutipeFoldImageTests.xctest */,
+				84CD40BB1EB8630300243EF5 /* FMMutipeFoldImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CD40961EB8630200243EF5 /* FMMutipeFoldImage */ = {
+			isa = PBXGroup;
+			children = (
+				84CD409A1EB8630200243EF5 /* AppDelegate.h */,
+				84CD409B1EB8630200243EF5 /* AppDelegate.m */,
+				84CD409D1EB8630200243EF5 /* ViewController.h */,
+				84CD409E1EB8630300243EF5 /* ViewController.m */,
+				84CD40A01EB8630300243EF5 /* Main.storyboard */,
+				84CD40A61EB8630300243EF5 /* Assets.xcassets */,
+				84CD40A81EB8630300243EF5 /* LaunchScreen.storyboard */,
+				84CD40AB1EB8630300243EF5 /* Info.plist */,
+				84CD40A31EB8630300243EF5 /* FMMutipeFoldImage.xcdatamodeld */,
+				84CD40971EB8630200243EF5 /* Supporting Files */,
+			);
+			path = FMMutipeFoldImage;
+			sourceTree = "<group>";
+		};
+		84CD40971EB8630200243EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CD40981EB8630200243EF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84CD40B31EB8630300243EF5 /* FMMutipeFoldImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CD40B41EB8630300243EF5 /* FMMutipeFoldImageTests.m */,
+				84CD40B61EB8630300243EF5 /* Info.plist */,
+			);
+			path = FMMutipeFoldImageTests;
+			sourceTree = "<group>";
+		};
+		84CD40BE1EB8630300243EF5 /* FMMutipeFoldImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CD40BF1EB8630300243EF5 /* FMMutipeFoldImageUITests.m */,
+				84CD40C11EB8630300243EF5 /* Info.plist */,
+			);
+			path = FMMutipeFoldImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CD40931EB8630200243EF5 /* FMMutipeFoldImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD40C41EB8630300243EF5 /* Build configuration list for PBXNativeTarget "FMMutipeFoldImage" */;
+			buildPhases = (
+				84CD40901EB8630200243EF5 /* Sources */,
+				84CD40911EB8630200243EF5 /* Frameworks */,
+				84CD40921EB8630200243EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMMutipeFoldImage;
+			productName = FMMutipeFoldImage;
+			productReference = 84CD40941EB8630200243EF5 /* FMMutipeFoldImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CD40AF1EB8630300243EF5 /* FMMutipeFoldImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD40C71EB8630300243EF5 /* Build configuration list for PBXNativeTarget "FMMutipeFoldImageTests" */;
+			buildPhases = (
+				84CD40AC1EB8630300243EF5 /* Sources */,
+				84CD40AD1EB8630300243EF5 /* Frameworks */,
+				84CD40AE1EB8630300243EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CD40B21EB8630300243EF5 /* PBXTargetDependency */,
+			);
+			name = FMMutipeFoldImageTests;
+			productName = FMMutipeFoldImageTests;
+			productReference = 84CD40B01EB8630300243EF5 /* FMMutipeFoldImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CD40BA1EB8630300243EF5 /* FMMutipeFoldImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD40CA1EB8630300243EF5 /* Build configuration list for PBXNativeTarget "FMMutipeFoldImageUITests" */;
+			buildPhases = (
+				84CD40B71EB8630300243EF5 /* Sources */,
+				84CD40B81EB8630300243EF5 /* Frameworks */,
+				84CD40B91EB8630300243EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CD40BD1EB8630300243EF5 /* PBXTargetDependency */,
+			);
+			name = FMMutipeFoldImageUITests;
+			productName = FMMutipeFoldImageUITests;
+			productReference = 84CD40BB1EB8630300243EF5 /* FMMutipeFoldImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CD408C1EB8630200243EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wangjiuyin;
+				TargetAttributes = {
+					84CD40931EB8630200243EF5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 538CZ4N2AQ;
+						ProvisioningStyle = Automatic;
+					};
+					84CD40AF1EB8630300243EF5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 538CZ4N2AQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CD40931EB8630200243EF5;
+					};
+					84CD40BA1EB8630300243EF5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 538CZ4N2AQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CD40931EB8630200243EF5;
+					};
+				};
+			};
+			buildConfigurationList = 84CD408F1EB8630200243EF5 /* Build configuration list for PBXProject "FMMutipeFoldImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CD408B1EB8630200243EF5;
+			productRefGroup = 84CD40951EB8630200243EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CD40931EB8630200243EF5 /* FMMutipeFoldImage */,
+				84CD40AF1EB8630300243EF5 /* FMMutipeFoldImageTests */,
+				84CD40BA1EB8630300243EF5 /* FMMutipeFoldImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CD40921EB8630200243EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD40AA1EB8630300243EF5 /* LaunchScreen.storyboard in Resources */,
+				84CD40A71EB8630300243EF5 /* Assets.xcassets in Resources */,
+				84CD40A21EB8630300243EF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD40AE1EB8630300243EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD40B91EB8630300243EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CD40901EB8630200243EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD409F1EB8630300243EF5 /* ViewController.m in Sources */,
+				84CD40A51EB8630300243EF5 /* FMMutipeFoldImage.xcdatamodeld in Sources */,
+				84CD409C1EB8630200243EF5 /* AppDelegate.m in Sources */,
+				84CD40991EB8630200243EF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD40AC1EB8630300243EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD40B51EB8630300243EF5 /* FMMutipeFoldImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD40B71EB8630300243EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD40C01EB8630300243EF5 /* FMMutipeFoldImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CD40B21EB8630300243EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CD40931EB8630200243EF5 /* FMMutipeFoldImage */;
+			targetProxy = 84CD40B11EB8630300243EF5 /* PBXContainerItemProxy */;
+		};
+		84CD40BD1EB8630300243EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CD40931EB8630200243EF5 /* FMMutipeFoldImage */;
+			targetProxy = 84CD40BC1EB8630300243EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CD40A01EB8630300243EF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD40A11EB8630300243EF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CD40A81EB8630300243EF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD40A91EB8630300243EF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CD40C21EB8630300243EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CD40C31EB8630300243EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CD40C51EB8630300243EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMMutipeFoldImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMMutipeFoldImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84CD40C61EB8630300243EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMMutipeFoldImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMMutipeFoldImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84CD40C81EB8630300243EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMMutipeFoldImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMMutipeFoldImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMMutipeFoldImage.app/FMMutipeFoldImage";
+			};
+			name = Debug;
+		};
+		84CD40C91EB8630300243EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMMutipeFoldImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMMutipeFoldImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMMutipeFoldImage.app/FMMutipeFoldImage";
+			};
+			name = Release;
+		};
+		84CD40CB1EB8630300243EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMMutipeFoldImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMMutipeFoldImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMMutipeFoldImage;
+			};
+			name = Debug;
+		};
+		84CD40CC1EB8630300243EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				INFOPLIST_FILE = FMMutipeFoldImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMMutipeFoldImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMMutipeFoldImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CD408F1EB8630200243EF5 /* Build configuration list for PBXProject "FMMutipeFoldImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD40C21EB8630300243EF5 /* Debug */,
+				84CD40C31EB8630300243EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD40C41EB8630300243EF5 /* Build configuration list for PBXNativeTarget "FMMutipeFoldImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD40C51EB8630300243EF5 /* Debug */,
+				84CD40C61EB8630300243EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84CD40C71EB8630300243EF5 /* Build configuration list for PBXNativeTarget "FMMutipeFoldImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD40C81EB8630300243EF5 /* Debug */,
+				84CD40C91EB8630300243EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84CD40CA1EB8630300243EF5 /* Build configuration list for PBXNativeTarget "FMMutipeFoldImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD40CB1EB8630300243EF5 /* Debug */,
+				84CD40CC1EB8630300243EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84CD40A31EB8630300243EF5 /* FMMutipeFoldImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84CD40A41EB8630300243EF5 /* FMMutipeFoldImage.xcdatamodel */,
+			);
+			currentVersion = 84CD40A41EB8630300243EF5 /* FMMutipeFoldImage.xcdatamodel */;
+			path = FMMutipeFoldImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84CD408C1EB8630200243EF5 /* Project object */;
+}
